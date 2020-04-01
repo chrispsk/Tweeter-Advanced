@@ -1,10 +1,10 @@
 import datetime
 import os
 
-AWS_GROUP_NAME = "CHRIS_tweet_Group" ###############
-AWS_USERNAME = "chris-tweet-user" ##################
-AWS_ACCESS_KEY_ID = os.environ.get("AWS_ACCESS_KEY_ID", "AKIAVOQAF3DYWFQTTL5T")
-AWS_SECRET_ACCESS_KEY = os.environ.get("AWS_SECRET_ACCESS_KEY", "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")
+AWS_GROUP_NAME = "" ###############
+AWS_USERNAME = "" ##################
+AWS_ACCESS_KEY_ID = os.environ.get("AWS_ACCESS_KEY_ID", "AKIAVOQJKKKYWFQTTL5T")
+AWS_SECRET_ACCESS_KEY = os.environ.get("AWS_SECRET_ACCESS_KEY", "7nvY0WxLG2xb72K{JDV7KHyhbco2mZTjcs9fF1uS")
 
 AWS_FILE_EXPIRE = 200
 AWS_PRELOAD_METADATA = True
