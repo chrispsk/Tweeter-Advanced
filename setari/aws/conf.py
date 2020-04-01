@@ -12,7 +12,7 @@ AWS_QUERYSTRING_AUTH = False
 
 DEFAULT_FILE_STORAGE = 'setari.aws.utils.MediaRootS3BotoStorage' #############
 STATICFILES_STORAGE = 'setari.aws.utils.StaticRootS3BotoStorage' #############
-AWS_STORAGE_BUCKET_NAME = 'tweet-bucket-christianson' ########
+AWS_STORAGE_BUCKET_NAME = '' ########
 S3DIRECT_REGION = 'us-east-1' #######Comes from bucket link
 S3_URL = '//%s.s3.amazonaws.com/' % AWS_STORAGE_BUCKET_NAME
 MEDIA_URL = '//%s.s3.amazonaws.com/media/' % AWS_STORAGE_BUCKET_NAME
