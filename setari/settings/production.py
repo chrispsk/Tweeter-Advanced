@@ -26,14 +26,14 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # RECEIVE ERROR ON EMAIL WHILE IN PRODUCTION AND DEBUG = FLASE
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER='eutu123887@gmail.com' #sendgrid
+EMAIL_HOST_USER='yours@gmail.com' #sendgrid
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 #EMAIL_HOST_PASSWORD=''
 EMAIL_USE_TLS=True
-DEFAULT_FROM_EMAIL = 'ItweetU <eutu123887@gmail.com>'
+DEFAULT_FROM_EMAIL = 'ItweetU <blam@gmail.com>'
 
 MANAGERS = (
-    ('Transact Ion', "eutu123887@gmail.com"),
+    ('Transact Ion', "blam@gmail.com"),
 )
 ADMINS = MANAGERS
 
